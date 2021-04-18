@@ -29,6 +29,11 @@ p{
 	text-align: justify;
 }
 
+.container{
+	width:1140px;
+	margin:20px auto 0 auto;
+}
+
 .main-text{
 	text-align:justify;
 	margin-bottom:20px;
@@ -36,4 +41,28 @@ p{
 
 .author-text {
 	font-size:22px;
+}
+
+.blog-post{
+
+	width:75%;
+	float:left;
+
+}
+
+.other-post{
+
+	width:25%;
+	float:left;
+}
+
+.user-box{
+	border-top:1px solid #808080;
+	padding:20px 0 0 0 ;
+}
+
+.clear-fix{
+	content:"";
+	display:table;
+	clear:both;
 }
