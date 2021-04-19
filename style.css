@@ -34,26 +34,28 @@ p{
 	margin:20px auto 0 auto;
 }
 
+
+.blog-post{
+	width:75%;
+	float:left;
+	position:relative;
+}
+
+.date{
+	position:absolute;
+	top:0;
+	right:30px;
+}
+
 .main-text{
 	text-align:justify;
 	margin-bottom:20px;
+	padding-right:30px;
 }
 
-.author-text {
-	font-size:22px;
-}
-
-.blog-post{
-
-	width:75%;
-	float:left;
-
-}
-
-.other-post{
-
-	width:25%;
-	float:left;
+.blog-post img{
+	height:150px;
+	width:auto;
 }
 
 .user-box{
@@ -61,8 +63,32 @@ p{
 	padding:20px 0 0 0 ;
 }
 
+.user-text {
+	font-size:22px;
+	float:left;
+	margin-top:15px;
+	margin:30px;
+}
+
+.user-box img{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	float:left;
+}
+
+.other-post{
+	width:25%;
+	float:left;
+}
+
+.other{
+	margin-bottom:40px;
+}
+
 .clear-fix{
 	content:"";
 	display:table;
 	clear:both;
 }
+
